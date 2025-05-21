@@ -165,7 +165,7 @@ with col2:
     
     # st.write('Preprocessing Data :')
     # Load Preprocessed Data
-    pipeline_loaded = joblib.load('model/binary_class/preprocessing_pipeline.pkl')
+    pipeline_loaded = joblib.load('model/binaryclass/preprocessing_pipeline.pkl')
     
     
     # Transform Input Data
@@ -177,7 +177,7 @@ with col2:
     
     # Prediksi dengan model
     # Load Model
-    model3 = torch.load('model/binary_class/model_churn3.pth', weights_only=False)
+    model3 = torch.load('model/binaryclass/model_churn3.pth', weights_only=False)
 
     
     # Prediksi
