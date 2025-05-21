@@ -1,6 +1,7 @@
 # 🧠 Neural Network Classifier Web App
 
-Welcome to an interactive and beginner-friendly deep learning application — powered by **Streamlit** and **PyTorch**.
+Perform binary and multi-class classification using neural networks — **no coding required!**.
+
 
 This app lets you **train, evaluate, and deploy neural network models** for classification tasks — all without writing a single line of code!
 
@@ -46,26 +47,22 @@ Quickly prototype and deploy classification models to extract insights from stru
 
 ---
 
-## 🗂 Project Structure
+## 📷 Screenshots
 
-classification-using-pytorch/
-├── app/
-│   ├── Home.py
-│   ├── function.py
-│   ├── pages/
-│   │   ├── 1_Customer_Churn_Prediction.py
-│   │   ├── 2_Build_Your_model_Binary_Classification.py
-│   │   └── 3_Build_Your_model_Multi_Classification.py
-│   ├── model/
-│   │   ├── binaryclass/
-│   │   │   ├── model_churn3.pth
-│   │   │   └── preprocessing_pipeline.pkl
-│   │   └── multiclass/
-│   │       ├── model_churn3.pth
-│   │       └── preprocessing_pipeline.pkl
-│   └── data/
-├── requirements.txt
-└── README.md
+![Home](https://github.com/AryaHisma/Classification-Using-Pytorch/blob/main/picture/home.png)
+
+---
+
+📎 Dependencies
+- streamlit
+- torch
+- sklearn
+- pandas
+- matplotlib
+- seaborn
+- joblib
+
+Lihat requirements.txt untuk daftar lengkap.
 
 ---
 
