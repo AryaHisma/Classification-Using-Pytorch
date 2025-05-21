@@ -62,7 +62,7 @@ Quickly prototype and deploy classification models to extract insights from stru
 - seaborn
 - joblib
 
-Lihat requirements.txt untuk daftar lengkap.
+See requirements.txt for the complete list.
 
 ---
 
