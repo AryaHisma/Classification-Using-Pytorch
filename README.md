@@ -87,4 +87,4 @@ streamlit run app/Home.py
 
 👨‍💻 Created By
 Made with ❤️ by Arya Hisma Maulana
-Feel free to connect, fork, or contribute!
+Feel free to connect or contribute!
