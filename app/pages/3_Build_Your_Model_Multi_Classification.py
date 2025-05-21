@@ -14,14 +14,14 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from function import *
 from sklearn.pipeline import Pipeline
 
-st.set_page_config(page_title="Build Your Own Model - Binari Classification", 
+st.set_page_config(page_title="Build Your Own Model - Multi-Class Classification", 
                    page_icon="🔢",
                    layout='wide'
                    )
 
 st.markdown("""
     <h3 style='text-align: center;'>🧾 Build Your Own Model Classification using Neural Network</h3>
-    <h5 style='text-align: center;'>Multi Classification</h5>
+    <h5 style='text-align: center;'>Multi-Class Classification</h5>
     """, unsafe_allow_html=True)
 
 uploaded_file = st.file_uploader("**Upload Dataset CSV :**", type=["csv"])
