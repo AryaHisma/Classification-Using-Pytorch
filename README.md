@@ -53,7 +53,7 @@ Quickly prototype and deploy classification models to extract insights from stru
 
 ---
 
-📎 Dependencies
+## 📎 Dependencies
 - streamlit
 - torch
 - sklearn
@@ -82,6 +82,8 @@ pip install -r requirements.txt
 
 # Run the Streamlit app
 streamlit run app/Home.py
+
+---
 
 👨‍💻 Created By
 Made with ❤️ by Arya Hisma Maulana
